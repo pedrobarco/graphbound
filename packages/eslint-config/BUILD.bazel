@@ -1,0 +1,8 @@
+load("//tools/nodejs:index.bzl", "lib", "prettier")
+
+lib(
+    srcs = ["index.json"],
+    main = "index.json",
+)
+
+prettier()
