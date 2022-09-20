@@ -13,8 +13,8 @@
 
 Setup
 
-- `bazel run -- @nodejs_host//:npx_bin pnpm i` (Install required software and sets up project)
-- `bazel run -- @nodejs_host//:npx_bin pnpm outdated` (Check for outdated dependencies)
+- `bazel run -- @pnpm//:pnpm -C $PWD i` (Install required software and sets up project)
+- `bazel run -- @pnpm//:pnpm -C $PWD outdated` (Check for outdated dependencies)
 
 Development
 
